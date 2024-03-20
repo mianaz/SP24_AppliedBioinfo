@@ -1,0 +1,17 @@
+#maximal read length
+max_rd_len=82
+[LIB]
+#maximal read length in this lib
+rd_len_cutof=82
+#average insert size
+#avg_ins=400
+#if sequence needs to be reversed
+#reverse_seq=/scratch365/zzeng4/SP24_AppliedBioinfo/Analysis/02_RNAseq_CaseStudy/de_novo/input_files/reads-norm.fq
+#in which part(s) the reads are used
+asm_flags=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=32
+#fastq files for paired reads
+#symlink might not work
+#q=/scratch365/zzeng4/SP24_AppliedBioinfo/Analysis/02_RNAseq_CaseStudy/de_novo/input_files/reads-norm.fq
+q=/scratch365/zzeng4/SP24_AppliedBioinfo/Analysis/02_RNAseq_CaseStudy/de_novo/input_files/reads.fq.normalized_K25_maxC30_minC0_maxCV10000.fq

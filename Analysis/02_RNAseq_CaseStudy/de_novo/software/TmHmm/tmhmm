@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ ! $(command -v singularity) ]; then
+	module load singularity
+fi
+
+VERSION=2.0c
+PACKAGE=tmhmm
+TOOL="perl /usr/local/tmhmm-2.0c/bin/tmhmm"
+DIRECTORY=$PWDHERE/software/TmHmm
+STORAGE=/scratch365/zzeng4/SP24_AppliedBioinfo/
+
+OPTIONS=$OPTIONS" -B $STORAGE"
+
+singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
