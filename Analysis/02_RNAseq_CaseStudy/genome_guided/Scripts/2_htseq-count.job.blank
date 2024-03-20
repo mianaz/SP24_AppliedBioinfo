@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#$ -M zzeng4@nd.edu
+#$ -m abe
+#$ -q long
+#$ -N htseq
+
+conda activate ngs
+#module load bio/2.0
+
+od=/afs/crc.nd.edu/user/g/gliu4/LabData/RNAseq
+
+stub=
+gtf=../Reference/GRCm39_ens.gtf
+
+echo $stub
+htseq-count -f bam -r pos -s no -m union -t exon -i gene_id $od/Mapping/SamFiles/$stub.sort.bam $gtf > $od/Counts/$stub.csv
+
+#for more information about the -m options, please see https://htseq.readthedocs.io/en/release_0.11.1/count.html

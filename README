@@ -1,0 +1,29 @@
+If you would like example data, please run the script 'PullData.sh' in Setup/
+
+Additionally, if you are running this on a cluster, please remember to add your module load commands to the scripts. Alternatively, a conda environment could be used.
+
+## Next-Generation Sequencing Upstream Analysis ##
+
+-- Step 1: QC --
+
+Usage:
+The scripts are designed to be run in alphabetical order. For optional steps, a seperate _skip.sh script is available if the user choose not to run a certain step.
+
+Setup: Conda environment file (environment.yml) is available in Setup/ 
+To create ngs environment: conda env create -f environment.yml
+
+Input: Raw sequence (.fastq) files in Input_data/
+
+Workflow:
+1. A_RunCheck.sh
+(then enter either single_end/ or paired_end/)
+2. B_RunFastqAndStats.sh
+3. C_RunTrimmomaticAndSickle.sh
+4. D_RunRemoveSpike.sh or D_skip.sh
+5. E_RunRemoveHost.sh or E_skip.sh
+6. F_RunRemoveRNA.sh or F_skip.sh
+7. G_RunStats.sh
+8. H_CopyResults.sh
+9. I_PostQCfastq.sh (optional)
+
+Output: cleaned sequence files (.fq) and QC stats (stats.txt, finalstats.txt) in final_QC_output/
