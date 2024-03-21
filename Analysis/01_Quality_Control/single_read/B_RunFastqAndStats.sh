@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu
+#$ -M 
 #$ -m abe
 #$ -q long
 #$ -N RunQC_B
@@ -23,8 +23,8 @@ for g in ../../../Input_data/*fastq.gz; do
 done
 
 #Run MultiQC
-echo "Generating MultiQC Report"
+#echo "Generating MultiQC Report"
 
-multiqc ./fastqc
+#multiqc ./fastqc
 
-echo "DONE Running FastQC"
+#echo "DONE Running FastQC"

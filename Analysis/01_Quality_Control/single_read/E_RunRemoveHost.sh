@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu 
+#$ -M  
 #$ -m abe
 #$ -q long
 #$ -N RunQC_E

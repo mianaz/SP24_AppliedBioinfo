@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu
-#$ -m abe
+#$ -M 
+#$ -m 
 #$ -q debug
 #$ -N RunQC_G
 
@@ -9,7 +9,7 @@ echo "Creating stats"
 
 for f in ./bbmap/*final.clean.fq; do
 
-     base=${f%_1.final*}
+     base=${f%.final*}
 
      grep 'PHIX REMOVAL UNPAIRED' ${base}.stats.txt  | grep 'java' > ${base}.finalstats.txt
      grep 'PHIX REMOVAL UNPAIRED' ${base}.stats.txt  | grep 'Input' >> ${base}.finalstats.txt

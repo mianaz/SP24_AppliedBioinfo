@@ -1,12 +1,11 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu 
+#$ -M  
 #$ -m abe
 #$ -q long
 #$ -N RunQC_C
 
 module load bio/2.0
-
 #conda activate ngs
 
 #make output folder

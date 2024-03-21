@@ -1,12 +1,12 @@
 #all intermediate files
-Analysis/02_RNAseq_CaseStudy/de_novo/
+#Analysis/02_RNAseq_CaseStudy/de_novo/
 #but not configuration, scripts or README
 !config_file
 !*.sh
 !README
 !samples_described
 #not setup files
-!Analysis/02_RNAseq_CaseStudy/de_novo/setup_files
+#!Analysis/02_RNAseq_CaseStudy/de_novo/setup_files
 
 #all reference files
 Analysis/02_RNAseq_CaseStudy/genome_guided/Reference/
