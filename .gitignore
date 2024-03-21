@@ -1,21 +1,19 @@
 #all intermediate files
-#Analysis/02_RNAseq_CaseStudy/de_novo/
 #but not configuration, scripts or README
 !config_file
 !*.sh
 !README
 !samples_described
-#not setup files
-#!Analysis/02_RNAseq_CaseStudy/de_novo/setup_files
 
 #all reference files
 Analysis/02_RNAseq_CaseStudy/genome_guided/Reference/
 
 #all software
-Analysis/Software/
+#Analysis/Software/
 
 # singularity images
 *.sif
+*.simg
 
 # sequence files
 *.fq
@@ -23,9 +21,15 @@ Analysis/Software/
 *.fastq
 *.fa
 
+# sam and bam files
+*.sam
+*.bai
+*.bam
+
+# zip files
+*.gz
+
 # job logs
 *.o*
 *.log
-
-# Velvet files
-oases*
+*.summary
