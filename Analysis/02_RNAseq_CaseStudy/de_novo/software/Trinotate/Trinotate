@@ -8,7 +8,7 @@ VERSION=3.2.1
 PACKAGE=trinotate
 TOOL=Trinotate
 DIRECTORY=$PWDHERE/software/Trinotate
-STORAGE=/scratch365/zzeng4/SP24_AppliedBioinfo/
+STORAGE=/N/home/,/N/slate,/N/project
 
 OPTIONS=$OPTIONS" -B $STORAGE"
 

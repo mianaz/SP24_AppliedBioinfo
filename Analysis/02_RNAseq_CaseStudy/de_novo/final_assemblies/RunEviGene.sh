@@ -3,7 +3,7 @@
 #$ -N RunEviGene                                 
 #$ -q long
 #$ -m abe 
-#$ -M zzeng4@nd.edu
+#$ -M 
 
 module load bio/2.0
 #conda activate ngs

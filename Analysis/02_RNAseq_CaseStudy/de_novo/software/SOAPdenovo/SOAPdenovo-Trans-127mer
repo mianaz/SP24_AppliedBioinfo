@@ -8,7 +8,7 @@ VERSION=1.04
 PACKAGE=soapdenovotrans
 TOOL=SOAPdenovo-Trans-127mer
 DIRECTORY=$PWDHERE/software/SOAPdenovo
-STORAGE=/scratch365/zzeng4/SP24_AppliedBioinfo/
+STORAGE=/N/home/,/N/slate,/N/project
 
 OPTIONS=$OPTIONS" -B $STORAGE"
 

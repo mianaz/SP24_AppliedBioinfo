@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu
+#$ -M 
 #$ -m abe
 #$ -q long
 #$ -N RunQC_B
@@ -8,7 +8,8 @@
 #module load bio/2.0
 conda activate ngs
 
-declare od=/afs/crc.nd.edu/user/g/gliu4/LabData/RNAseq
+#define output directory
+declare od=.
 echo "Running FastQC and Generating Stats"
 
 #make output folder

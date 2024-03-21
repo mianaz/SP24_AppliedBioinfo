@@ -1,13 +1,15 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu
+#$ -M 
 #$ -m abe
 #$ -q long
 #$ -N RunQC_E
 
 conda activate ngs
-#module load ngs
-declare od=/afs/crc.nd.edu/user/g/gliu4/LabData/RNAseq
+#module load bio/2.0
+
+# Define output directory
+declare od=.
 #make output folder
 
 if [ -d $od/bbmap ]; then

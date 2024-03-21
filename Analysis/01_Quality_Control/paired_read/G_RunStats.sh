@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edi
+#$ -M 
 #$ -m abe
 #$ -q debug
 #$ -N RunQC_G
 
 echo "Creating stats"
-declare od=/afs/crc.nd.edu/user/g/gliu4/LabData/RNAseq
+declare od=.
 
 
 for f in $od/bbmap/*final.clean.fq; do

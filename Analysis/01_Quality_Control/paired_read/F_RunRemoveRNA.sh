@@ -1,12 +1,15 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu
+#$ -M 
 #$ -m abe
 #$ -q long
 #$ -N RunQC_F
 
 conda activate ngs
 #module load bio/2.0
+
+#Define output directory
+od=.
 
 #make output folder
 

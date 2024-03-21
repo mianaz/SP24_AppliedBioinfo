@@ -8,7 +8,7 @@ VERSION=5.0.2
 PACKAGE=quast
 TOOL=quast.py
 DIRECTORY=$PWDHERE/software/Quast
-STORAGE=/scratch365/zzeng4/SP24_AppliedBioinfo/
+STORAGE=/N/home/,/N/slate,/N/project
 
 OPTIONS=$OPTIONS" -B $STORAGE"
 

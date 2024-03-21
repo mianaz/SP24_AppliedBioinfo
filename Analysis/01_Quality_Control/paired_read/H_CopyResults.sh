@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu
+#$ -M 
 #$ -m abe
 #$ -q debug
 #$ -N RunQC_H
 
 #make output folder
-declare od=/afs/crc.nd.edu/user/g/gliu4/LabData/RNAseq
+declare od=.
 
 if [ -d $od/final_QC_output ]; then
     echo "directory exists"

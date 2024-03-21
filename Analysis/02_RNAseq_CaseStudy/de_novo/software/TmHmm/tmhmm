@@ -8,7 +8,7 @@ VERSION=2.0c
 PACKAGE=tmhmm
 TOOL="perl /usr/local/tmhmm-2.0c/bin/tmhmm"
 DIRECTORY=$PWDHERE/software/TmHmm
-STORAGE=/scratch365/zzeng4/SP24_AppliedBioinfo/
+STORAGE=/N/home/,/N/slate,/N/project
 
 OPTIONS=$OPTIONS" -B $STORAGE"
 

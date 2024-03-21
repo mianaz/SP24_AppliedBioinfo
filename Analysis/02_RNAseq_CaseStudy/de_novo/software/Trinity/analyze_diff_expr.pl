@@ -8,7 +8,7 @@ VERSION=2.11.0
 PACKAGE=Trinity
 TOOL=/usr/local/bin/trinityrnaseq/Analysis/DifferentialExpression/analyze_diff_expr.pl
 DIRECTORY=$PWDHERE/software/Trinity
-STORAGE=/scratch365/zzeng4/SP24_AppliedBioinfo/
+STORAGE=/N/home/,/N/slate,/N/project
 
 OPTIONS=$OPTIONS" -B $STORAGE"
 

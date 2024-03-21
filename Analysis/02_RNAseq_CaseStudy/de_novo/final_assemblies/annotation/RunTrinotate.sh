@@ -3,7 +3,7 @@
 #$ -N RunTrinotate                                 
 #$ -q long
 #$ -m abe 
-#$ -M zzeng4@nd.edu
+#$ -M 
 
 ##Move to correct WD
 source ../../setup_files/path_set

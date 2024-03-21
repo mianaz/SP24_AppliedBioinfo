@@ -3,7 +3,7 @@
 #$ -N RunVelvet3                                  
 #$ -q long
 #$ -m abe 
-#$ -M zzeng4@nd.edu
+#$ -M 
 
 ##Move to correct WD
 module load bio/2.0
@@ -14,7 +14,8 @@ cd $PWDHERE/Velvet
 export PATH=$PATH:$PWDHERE/software/Velvet
 
 #input define
-reads=$PWDHERE/input_files/reads-norm.fq
+left=$PWDHERE/input_files/left-norm.fq
+right=$PWDHERE/input_files/right-norm.fq
 
 ##run code
 oases oases.35 &

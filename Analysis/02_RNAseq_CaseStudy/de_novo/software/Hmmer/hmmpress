@@ -8,7 +8,7 @@ VERSION=3.1b
 PACKAGE=hmmer
 TOOL=hmmpress
 DIRECTORY=$PWDHERE/software/Hmmer
-STORAGE=/scratch365/zzeng4/SP24_AppliedBioinfo/
+STORAGE=/N/home/,/N/slate,/N/project
 
 
 OPTIONS=$OPTIONS" -B $STORAGE"

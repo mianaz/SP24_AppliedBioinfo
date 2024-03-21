@@ -1,11 +1,12 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu
+#$ -M 
 #$ -m abe
 #$ -q debug
 #$ -N RunQC_D
 
-declare od=/afs/crc.nd.edu/user/g/gliu4/LabData/RNAseq
+# Define output directory
+declare od=.
 #make output folder
 
 if [ -d $od/bbmap ]; then

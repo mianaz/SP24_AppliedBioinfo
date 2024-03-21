@@ -2,7 +2,7 @@
 
 #$ -N TransAb1b                                    
 #$ -q long
-#$ -M zzeng4@nd.edu
+#$ -M 
 #$ -m abe
 
 #set wd

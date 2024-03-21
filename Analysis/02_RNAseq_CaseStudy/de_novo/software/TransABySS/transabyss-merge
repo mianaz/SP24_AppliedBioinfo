@@ -8,7 +8,7 @@ VERSION=2.0.1
 PACKAGE=transabyss
 TOOL=transabyss-merge
 DIRECTORY=$PWDHERE/software/TransABySS
-STORAGE=/scratch365/zzeng4/SP24_AppliedBioinfo/
+STORAGE=/N/home/,/N/slate,/N/project
 
 OPTIONS=$OPTIONS" -B $STORAGE"
 

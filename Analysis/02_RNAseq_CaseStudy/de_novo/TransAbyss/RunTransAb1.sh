@@ -3,7 +3,7 @@
 #$ -N TransAb1                                    
 #$ -q long
 #$ -m abe
-#$ -M zzeng4@nd.edu
+#$ -M 
 
 #set wd
 module load bio/2.0

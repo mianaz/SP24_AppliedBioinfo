@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#$ -M zzeng4@nd.edu 
+#$ -M  
 #$ -m abe
 #$ -q long
 #$ -N RunQC_C
@@ -8,7 +8,8 @@
 #module load bio/2.0
 conda activate ngs
 
-declare od=/afs/crc.nd.edu/user/g/gliu4/LabData/RNAseq
+#specify output directory
+declare od=.
 
 #make output folder
 

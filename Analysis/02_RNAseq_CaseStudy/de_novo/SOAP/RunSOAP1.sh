@@ -3,7 +3,7 @@
 #$ -N RunSOAP1                                     
 #$ -q long
 #$ -m abe
-#$ -M zzeng4@nd.edu
+#$ -M 
 
 ##Move to correct WD
 module load bio/2.0
